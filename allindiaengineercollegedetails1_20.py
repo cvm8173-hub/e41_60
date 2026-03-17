@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/government-college-of-engineering-thanjavur-148435",
-  "https://www.shiksha.com/college/mahatma-gandhi-university-college-of-engineering-and-technology-nalgonda-62137",
-  "https://www.shiksha.com/college/dhirajlal-gandhi-college-of-technology-dgct-salem-47335",
-  "https://www.shiksha.com/college/manav-institute-hisar-48890",
-  "https://www.shiksha.com/college/ashoka-women-s-engineering-college-kurnool-146245",
-  "https://www.shiksha.com/college/gateway-institute-of-engineering-and-technology-gateway-education-sonepat-38658",
-  "https://www.shiksha.com/college/r-d-engineering-college-technical-campus-ghaziabad-31887",
-  "https://www.shiksha.com/college/school-of-artillery-nashik-147915",
-  "https://www.shiksha.com/college/mangalore-marine-college-and-technology-50700",
-  "https://www.shiksha.com/college/bit-institute-of-technology-anantapur-22479",
-  "https://www.shiksha.com/college/agmr-college-of-engineering-and-technology-agmr-hubli-49359",
-  "https://www.shiksha.com/college/shri-vaishnav-institute-of-technology-and-science-indore-37114",
-  "https://www.shiksha.com/college/government-engineering-college-west-champaran-bihar-other-146463",
-  "https://www.shiksha.com/college/vignan-s-nirula-institute-of-technology-and-science-for-women-guntur-62379",
-  "https://www.shiksha.com/college/ips-group-of-colleges-gwalior-1761",
-  "https://www.shiksha.com/college/sunder-deep-engineering-college-ghaziabad-25055",
-  "https://www.shiksha.com/college/sant-gajanan-maharaj-education-group-mahagaon-kolhapur-59763",
-  "https://www.shiksha.com/college/shaheed-bhagat-singh-state-technical-campus-ferozpur-21138",
-  "https://www.shiksha.com/college/csi-college-of-engineering-csice-ooty-19781",
-  "https://www.shiksha.com/university/aditya-university-kakinada-228027",
+  "https://www.shiksha.com/college/c-v-raman-global-university-bhubaneswar-21724",
+  "https://www.shiksha.com/university/nit-hamirpur-national-institute-of-technology-24395",
+  "https://www.shiksha.com/university/atal-bihari-vajpayee-indian-institute-of-information-technology-and-management-gwalior-53877",
+  "https://www.shiksha.com/college/sot-pandit-deendayal-energy-university-pdeu-gandhinagar-40353",
+  "https://www.shiksha.com/college/chennai-institute-of-technology-kundrathur-46488",
+  "https://www.shiksha.com/university/jaypee-institute-of-information-technology-noida-20383",
+  "https://www.shiksha.com/university/hindustan-institute-of-technology-and-science-chennai-36830",
+  "https://www.shiksha.com/college/iiit-allahabad-indian-institute-of-information-technology-26486",
+  "https://www.shiksha.com/college/iit-goa-indian-institute-of-technology-ponda-53787",
+  "https://www.shiksha.com/university/karunya-institute-of-technology-and-sciences-coimbatore-939",
+  "https://www.shiksha.com/university/jawaharlal-nehru-technological-university-kakinada-36793",
+  "https://www.shiksha.com/college/kpr-institute-of-engineering-and-technology-coimbatore-49403",
+  "https://www.shiksha.com/college/kec-kongu-engineering-college-erode-3598",
+  "https://www.shiksha.com/university/maharishi-markandeshwar-university-mullana-ambala-4279",
+  "https://www.shiksha.com/university/pes-university-bangalore-20875",
+  "https://www.shiksha.com/college/nit-mizoram-national-institute-of-technology-aizawl-39180",
+  "https://www.shiksha.com/college/nit-nagaland-national-institute-of-technology-dimapur-39201",
+  "https://www.shiksha.com/university/iiitdm-jabalpur-indian-institute-of-information-technology-design-and-manufacturing-54218",
+  "https://www.shiksha.com/university/punjab-engineering-college-chandigarh-3773",
+  "https://www.shiksha.com/college/psg-institute-of-technology-and-applied-research-coimbatore-47545",
 ]
 
 
@@ -9243,7 +9243,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count =1041
+    c_count =41
 
     try:
         for base_url in BASE_URL:
