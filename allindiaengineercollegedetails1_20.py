@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/sri-venkateswara-engineering-college-tirupati-48360",
-  "https://www.shiksha.com/college/sir-visvesvaraya-institute-of-technology-nashik-48404",
-  "https://www.shiksha.com/college/vasantrao-naik-college-of-agriculture-bio-technology-yavatmal-dr-panjabrao-deshmukh-krishi-vidyapeeth-106241",
-  "https://www.shiksha.com/college/sanjeevan-engineering-and-technology-institute-seti-panhala-kolhapur-36461",
-  "https://www.shiksha.com/college/shershah-engineering-college-sasaram-66467",
-  "https://www.shiksha.com/college/nri-group-of-institutions-bhopal-44695",
-  "https://www.shiksha.com/college/manav-institute-hisar-48890",
-  "https://www.shiksha.com/college/lokmanya-tilak-jankalyan-shikshan-sanstha-s-priyadarshini-institute-of-engineering-and-technology-nagpur-52893",
-  "https://www.shiksha.com/university/kerala-university-of-fisheries-and-ocean-studies-kochi-60353",
-  "https://www.shiksha.com/university/guru-nanak-university-gnu-hyderabad-233126",
-  "https://www.shiksha.com/college/university-of-kashmir-north-campus-baramulla-104905",
-  "https://www.shiksha.com/college/bitm-bengal-institute-of-technology-and-management-kolkata-31097",
-  "https://www.shiksha.com/college/vignan-s-institute-of-engineering-for-women-view-visakhapatnam-43358",
-  "https://www.shiksha.com/college/barak-valley-engineering-college-assam-other-66531",
-  "https://www.shiksha.com/college/lalita-vidya-pratishthanam-chinmaya-vishwa-vidyapeeth-ernakulum-238334",
-  "https://www.shiksha.com/college/college-of-engineering-adoor-kerala-other-49370",
-  "https://www.shiksha.com/college/s-d-college-of-engineering-and-technology-muzaffarnagar-21028",
-  "https://www.shiksha.com/college/bit-institute-of-technology-anantapur-22479",
-  "https://www.shiksha.com/college/government-engineering-college-idukki-60397",
-  "https://www.shiksha.com/college/lukhdhirji-engineering-college-rajkot-22747",
+  "https://www.shiksha.com/college/college-of-food-science-and-technology-pulivendula-andhra-pradesh-other-63507",
+  "https://www.shiksha.com/college/dr-a-p-j-abdul-kalam-institute-of-technology-uttarakhand-other-67019",
+  "https://www.shiksha.com/college/satya-group-of-institutions-faridabad-32878",
+  "https://www.shiksha.com/college/musaliar-college-of-engineering-technology-pathanamthitta-60487",
+  "https://www.shiksha.com/college/ies-group-of-institutions-bhopal-49166",
+  "https://www.shiksha.com/college/jagadambha-college-of-engineering-and-technology-yavatmal-59481",
+  "https://www.shiksha.com/university/sjjtu-shri-jagdishprasad-jhabarmal-tibrewala-university-rajasthan-other-27883",
+  "https://www.shiksha.com/college/sir-issac-newton-college-of-engineering-and-technology-nagapattinam-61521",
+  "https://www.shiksha.com/university/skips-university-gandhinagar-213947",
+  "https://www.shiksha.com/college/solamalai-college-of-engineering-madurai-20946",
+  "https://www.shiksha.com/college/guru-gram-institute-of-aeronautical-engineering-technology-ggiaet-nagpur-27068",
+  "https://www.shiksha.com/college/sri-venkateswaraa-college-of-technology-tamil-nadu-other-48085",
+  "https://www.shiksha.com/college/satyasai-engineering-college-balasore-61389",
+  "https://www.shiksha.com/college/government-engineering-college-sheohar-bihar-other-146465",
+  "https://www.shiksha.com/college/chhatrapati-shivaji-institute-of-technology-chhattisgarh-other-19705",
+  "https://www.shiksha.com/college/sengunthar-engineering-college-namakkal-25783",
+  "https://www.shiksha.com/college/st-mary-s-group-of-institutions-guntur-52595",
+  "https://www.shiksha.com/college/gyanmanjari-institute-of-technology-bhavnagar-58911",
+  "https://www.shiksha.com/college/giet-college-of-aeronautical-engineering-gunupur-245776",
+  "https://www.shiksha.com/college/d-a-v-college-of-engineering-and-technology-haryana-other-21793",
 ]
 
 
@@ -9243,7 +9243,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count = 961
+    c_count = 1321
 
     try:
         for base_url in BASE_URL:
