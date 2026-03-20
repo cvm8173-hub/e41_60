@@ -15,26 +15,25 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/college-of-community-science-cskhpkv-palampur-101401",
-  "https://www.shiksha.com/college/imayam-college-of-engineering-tiruchirappalli-53891",
-  "https://www.shiksha.com/college/golden-valley-integrated-campus-chittoor-60636",
-  "https://www.shiksha.com/college/chhattisgarh-engineering-college-durg-89287",
-  "https://www.shiksha.com/college/department-of-pg-studies-visvesvaraya-technological-university-bangalore-chikkaballapur-51579",
-  "https://www.shiksha.com/college/chaitanya-institute-of-science-and-technology-kakinada-61165",
-  "https://www.shiksha.com/university/shri-shankaracharya-professional-university-bhilai-202471",
-  "https://www.shiksha.com/college/arulmigu-meenakshi-amman-college-of-engineering-kanchipuram-19535",
-  "https://www.shiksha.com/college/bharath-niketan-engineering-college-tamil-nadu-other-42880",
-  "https://www.shiksha.com/college/kite-school-of-engineering-and-technology-meerut-44698",
-  "https://www.shiksha.com/college/vision-institute-of-technology-kanpur-59533",
-  "https://www.shiksha.com/college/abha-gaikwad-patil-college-of-engineering-nagpur-59757",
-  "https://www.shiksha.com/college/government-engineering-college-banswara-101539",
-  "https://www.shiksha.com/college/shri-chhatarapati-shivaji-maharaj-college-of-engineering-ahmednagar-47563",
-  "https://www.shiksha.com/college/sree-ernakulathappan-college-of-engineering-and-management-kerala-other-60365",
-  "https://www.shiksha.com/college/gnanamani-college-of-engineering-namakkal-61593",
-  "https://www.shiksha.com/college/h-k-e-society-s-sln-college-of-engineering-raichur-52567",
-  "https://www.shiksha.com/college/tawi-group-of-colleges-pathankot-59259",
-  "https://www.shiksha.com/college/prt-institute-of-technology-and-science-madhya-pradesh-other-115195",
-  "https://www.shiksha.com/college/jamia-institute-of-engineering-and-management-studies-jalgaon-59913",
+  "https://www.shiksha.com/college/redwings-aerotechnique-pvt-ltd-bhopal-154077",
+  "https://www.shiksha.com/college/g-h-raisoni-academy-of-engineering-and-technology-nagpur-189751",
+  "https://www.shiksha.com/college/terna-public-charitable-group-of-institutions-college-of-engineering-osmanabad-190045",
+  "https://www.shiksha.com/college/adesh-institute-of-technology-mohali-48252",
+  "https://www.shiksha.com/college/lourdes-mount-college-of-engineering-and-technology-kanyakumari-61693",
+  "https://www.shiksha.com/college/ace-college-of-engineering-management-agra-65513",
+  "https://www.shiksha.com/college/government-college-dholpur-101543",
+  "https://www.shiksha.com/university/dr-ysr-architecture-and-fine-arts-university-kadapa-156909",
+  "https://www.shiksha.com/college/rayat-bahra-institute-of-engineering-and-nano-technology-punjab-other-35893",
+  "https://www.shiksha.com/college/ojaswini-institute-of-management-technology-madhya-pradesh-other-43395",
+  "https://www.shiksha.com/college/archana-college-of-engineering-kerala-other-45331",
+  "https://www.shiksha.com/college/blm-institute-of-technology-and-management-sciences-jhunjhunu-46876",
+  "https://www.shiksha.com/college/bz-global-education-campus-gujarat-other-60193",
+  "https://www.shiksha.com/college/bharat-group-of-colleges-mansa-66533",
+  "https://www.shiksha.com/college/kirodimal-institute-of-technology-raigarh-89301",
+  "https://www.shiksha.com/college/psn-engineering-college-tirunelveli-228587",
+  "https://www.shiksha.com/college/rajeev-gandhi-yoga-college-gadag-115625",
+  "https://www.shiksha.com/college/shri-swami-samarth-institute-of-management-technology-maharashtra-other-213275",
+  "https://www.shiksha.com/college/baldev-ram-mirdha-institute-of-technology-bmit-jaipur-24162",
 ]
 
 
@@ -9243,7 +9242,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count = 1361
+    c_count = 2181
 
     try:
         for base_url in BASE_URL:
