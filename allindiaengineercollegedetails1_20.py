@@ -34,6 +34,7 @@ BASE_URL = [
   "https://www.shiksha.com/college/rajeev-gandhi-yoga-college-gadag-115625",
   "https://www.shiksha.com/college/shri-swami-samarth-institute-of-management-technology-maharashtra-other-213275",
   "https://www.shiksha.com/college/baldev-ram-mirdha-institute-of-technology-bmit-jaipur-24162",
+    "https://www.shiksha.com/college/r-d-foundation-group-of-institutions-modinagar-33104",
 ]
 
 
