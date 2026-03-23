@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/redwings-aerotechnique-pvt-ltd-bhopal-154077",
-  "https://www.shiksha.com/college/g-h-raisoni-academy-of-engineering-and-technology-nagpur-189751",
-  "https://www.shiksha.com/college/terna-public-charitable-group-of-institutions-college-of-engineering-osmanabad-190045",
-  "https://www.shiksha.com/college/adesh-institute-of-technology-mohali-48252",
-  "https://www.shiksha.com/college/lourdes-mount-college-of-engineering-and-technology-kanyakumari-61693",
-  "https://www.shiksha.com/college/ace-college-of-engineering-management-agra-65513",
-  "https://www.shiksha.com/college/government-college-dholpur-101543",
-  "https://www.shiksha.com/university/dr-ysr-architecture-and-fine-arts-university-kadapa-156909",
-  "https://www.shiksha.com/college/rayat-bahra-institute-of-engineering-and-nano-technology-punjab-other-35893",
-  "https://www.shiksha.com/college/ojaswini-institute-of-management-technology-madhya-pradesh-other-43395",
-  "https://www.shiksha.com/college/archana-college-of-engineering-kerala-other-45331",
-  "https://www.shiksha.com/college/blm-institute-of-technology-and-management-sciences-jhunjhunu-46876",
-  "https://www.shiksha.com/college/bz-global-education-campus-gujarat-other-60193",
-  "https://www.shiksha.com/college/bharat-group-of-colleges-mansa-66533",
-  "https://www.shiksha.com/college/kirodimal-institute-of-technology-raigarh-89301",
-  "https://www.shiksha.com/college/psn-engineering-college-tirunelveli-228587",
-  "https://www.shiksha.com/college/rajeev-gandhi-yoga-college-gadag-115625",
-  "https://www.shiksha.com/college/shri-swami-samarth-institute-of-management-technology-maharashtra-other-213275",
-  "https://www.shiksha.com/college/baldev-ram-mirdha-institute-of-technology-bmit-jaipur-24162",
-    "https://www.shiksha.com/college/r-d-foundation-group-of-institutions-modinagar-33104",
+  "https://www.shiksha.com/college/abohar-pharmacy-college-fazilka-154859",
+  "https://www.shiksha.com/college/cfa-institute-india-private-limited-bandra-east-mumbai-155869",
+  "https://www.shiksha.com/college/jalgaon-zillha-medicine-dealers-society-college-of-pharmacy-156601",
+  "https://www.shiksha.com/college/matoshri-radha-college-of-pharmacy-ahmednagar-179661",
+  "https://www.shiksha.com/college/asbd-college-of-pharmacy-hardoi-181107",
+  "https://www.shiksha.com/college/avadh-institute-of-pharmacy-uttar-pradesh-other-181109",
+  "https://www.shiksha.com/college/j-k-institute-of-medical-sciences-uttar-pradesh-other-181253",
+  "https://www.shiksha.com/college/panchwati-college-of-pharmacy-meerut-181331",
+  "https://www.shiksha.com/college/v-m-s-polytechnic-and-pharmacy-gurdaspur-201385",
+  "https://www.shiksha.com/college/aadhar-institute-of-pharmacy-belgaum-207661",
+  "https://www.shiksha.com/college/shree-sai-education-and-charitable-trust-college-of-pharmacy-gulbarga-207913",
+  "https://www.shiksha.com/college/aditya-institute-of-pharmaceutical-beed-208065",
+  "https://www.shiksha.com/college/shiva-trust-s-godavari-college-of-pharmacy-nashik-211001",
+  "https://www.shiksha.com/college/ilam-sam-global-university-university-bhopal-213133",
+  "https://www.shiksha.com/college/madhavrao-patil-college-of-pharmacy-murum-maharashtra-other-213405",
+  "https://www.shiksha.com/college/baidyanath-institute-of-nursing-and-paramedical-science-jharkhand-other-213433",
+  "https://www.shiksha.com/college/national-research-institute-of-unani-medicine-for-skin-disorders-nriumsd-hyderabad-213927",
+  "https://www.shiksha.com/provider/us-pharmacopoeia-226193",
+  "https://www.shiksha.com/provider/green-world-group-226383",
+  "https://www.shiksha.com/provider/naukri-learning-226675",
 ]
 
 
@@ -9252,7 +9252,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count = 2181
+    c_count = 3821
 
     try:
         for base_url in BASE_URL:
