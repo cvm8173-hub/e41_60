@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/abohar-pharmacy-college-fazilka-154859",
-  "https://www.shiksha.com/college/cfa-institute-india-private-limited-bandra-east-mumbai-155869",
-  "https://www.shiksha.com/college/jalgaon-zillha-medicine-dealers-society-college-of-pharmacy-156601",
-  "https://www.shiksha.com/college/matoshri-radha-college-of-pharmacy-ahmednagar-179661",
-  "https://www.shiksha.com/college/asbd-college-of-pharmacy-hardoi-181107",
-  "https://www.shiksha.com/college/avadh-institute-of-pharmacy-uttar-pradesh-other-181109",
-  "https://www.shiksha.com/college/j-k-institute-of-medical-sciences-uttar-pradesh-other-181253",
-  "https://www.shiksha.com/college/panchwati-college-of-pharmacy-meerut-181331",
-  "https://www.shiksha.com/college/v-m-s-polytechnic-and-pharmacy-gurdaspur-201385",
-  "https://www.shiksha.com/college/aadhar-institute-of-pharmacy-belgaum-207661",
-  "https://www.shiksha.com/college/shree-sai-education-and-charitable-trust-college-of-pharmacy-gulbarga-207913",
-  "https://www.shiksha.com/college/aditya-institute-of-pharmaceutical-beed-208065",
-  "https://www.shiksha.com/college/shiva-trust-s-godavari-college-of-pharmacy-nashik-211001",
-  "https://www.shiksha.com/college/ilam-sam-global-university-university-bhopal-213133",
-  "https://www.shiksha.com/college/madhavrao-patil-college-of-pharmacy-murum-maharashtra-other-213405",
-  "https://www.shiksha.com/college/baidyanath-institute-of-nursing-and-paramedical-science-jharkhand-other-213433",
-  "https://www.shiksha.com/college/national-research-institute-of-unani-medicine-for-skin-disorders-nriumsd-hyderabad-213927",
-  "https://www.shiksha.com/provider/us-pharmacopoeia-226193",
-  "https://www.shiksha.com/provider/green-world-group-226383",
-  "https://www.shiksha.com/provider/naukri-learning-226675",
+  "https://www.shiksha.com/college/shinde-institute-of-pharmacy-and-research-maharashtra-other-236778",
+  "https://www.shiksha.com/college/shri-matasya-college-of-pharmacy-gangapur-236944",
+  "https://www.shiksha.com/college/k-s-college-of-pharmacy-jhansi-237002",
+  "https://www.shiksha.com/college/sri-padmavathi-childrens-heart-centre-tirupati-240886",
+  "https://www.shiksha.com/college/a-r-i-m-t-pharmacy-college-meerut-242674",
+  "https://www.shiksha.com/college/new-era-hospital-and-research-institute-nagpur-243692",
+  "https://www.shiksha.com/college/vishesh-jupiter-hospital-indore-243762",
+  "https://www.shiksha.com/college/dr-baba-saheb-ambedkar-hospital-delhi-other-243800",
+  "https://www.shiksha.com/college/oxford-group-of-institutions-haridwar-244396",
+  "https://www.shiksha.com/college/national-institute-of-ayurveda-panchkula-244496",
+  "https://www.shiksha.com/college/geetanjali-institute-of-medical-sciences-jaipur-245102",
+  "https://www.shiksha.com/college/government-medical-college-jhunjhunu-245316",
+  "https://www.shiksha.com/college/siddapur-institute-of-naturopathy-and-yogic-science-245794",
+  "https://www.shiksha.com/college/mahabodhi-medical-college-hospital-gaya-246020",
+  "https://www.shiksha.com/college/clini-india-academy-for-clinical-research-management-somajiguda-hyderabad-27004",
+  "https://www.shiksha.com/college/late-ravindranand-baronia-college-of-pharmacy-mahroni-uttar-pradesh-other-65749",
+  "https://www.shiksha.com/college/anthoniammal-community-college-thanjavur-88401",
+  "https://www.shiksha.com/college/matoshri-education-society-s-college-of-pharmacy-maharashtra-other-88789",
+  "https://www.shiksha.com/college/st-mary-s-college-of-pharmacy-karnataka-other-156743",
+  "https://www.shiksha.com/college/l-r-college-of-pharmacy-hathin-district-palwal-self-financed-179877",
 ]
 
 
@@ -9252,7 +9252,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count = 3821
+    c_count = 4201
 
     try:
         for base_url in BASE_URL:
