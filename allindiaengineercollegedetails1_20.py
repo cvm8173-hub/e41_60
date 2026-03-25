@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/shinde-institute-of-pharmacy-and-research-maharashtra-other-236778",
-  "https://www.shiksha.com/college/shri-matasya-college-of-pharmacy-gangapur-236944",
-  "https://www.shiksha.com/college/k-s-college-of-pharmacy-jhansi-237002",
-  "https://www.shiksha.com/college/sri-padmavathi-childrens-heart-centre-tirupati-240886",
-  "https://www.shiksha.com/college/a-r-i-m-t-pharmacy-college-meerut-242674",
-  "https://www.shiksha.com/college/new-era-hospital-and-research-institute-nagpur-243692",
-  "https://www.shiksha.com/college/vishesh-jupiter-hospital-indore-243762",
-  "https://www.shiksha.com/college/dr-baba-saheb-ambedkar-hospital-delhi-other-243800",
-  "https://www.shiksha.com/college/oxford-group-of-institutions-haridwar-244396",
-  "https://www.shiksha.com/college/national-institute-of-ayurveda-panchkula-244496",
-  "https://www.shiksha.com/college/geetanjali-institute-of-medical-sciences-jaipur-245102",
-  "https://www.shiksha.com/college/government-medical-college-jhunjhunu-245316",
-  "https://www.shiksha.com/college/siddapur-institute-of-naturopathy-and-yogic-science-245794",
-  "https://www.shiksha.com/college/mahabodhi-medical-college-hospital-gaya-246020",
-  "https://www.shiksha.com/college/clini-india-academy-for-clinical-research-management-somajiguda-hyderabad-27004",
-  "https://www.shiksha.com/college/late-ravindranand-baronia-college-of-pharmacy-mahroni-uttar-pradesh-other-65749",
-  "https://www.shiksha.com/college/anthoniammal-community-college-thanjavur-88401",
-  "https://www.shiksha.com/college/matoshri-education-society-s-college-of-pharmacy-maharashtra-other-88789",
-  "https://www.shiksha.com/college/st-mary-s-college-of-pharmacy-karnataka-other-156743",
-  "https://www.shiksha.com/college/l-r-college-of-pharmacy-hathin-district-palwal-self-financed-179877",
+  "https://www.shiksha.com/college/sir-h-n-reliance-foundation-hospital-and-research-centre-mumbai-105887",
+  "https://www.shiksha.com/college/b-r-singh-hospital-and-centre-for-medical-education-kolkata-105955",
+  "https://www.shiksha.com/college/shri-swami-samarth-institute-of-pharmacy-ahmednagar-147539",
+  "https://www.shiksha.com/college/mahavir-institute-of-pharmacy-nashik-150703",
+  "https://www.shiksha.com/college/udupi-college-of-allied-health-sciences-manipal-210477",
+  "https://www.shiksha.com/college/government-medical-college-konni-pathanamthitta-213205",
+  "https://www.shiksha.com/university/children-s-university-gandhinagar-64015",
+  "https://www.shiksha.com/college/khammam-college-of-pharmacy-70215",
+  "https://www.shiksha.com/college/jayamukhi-college-of-pharmacy-warangal-87855",
+  "https://www.shiksha.com/college/ashokrao-mane-college-of-pharmacy-kolhapur-97803",
+  "https://www.shiksha.com/college/shri-ramnath-singh-institute-of-pharmaceutical-science-and-technology-gwalior-147173",
+  "https://www.shiksha.com/college/vidya-siri-college-of-pharmacy-karnataka-other-156749",
+  "https://www.shiksha.com/college/a-g-m-college-of-pharmacy-karnataka-other-156763",
+  "https://www.shiksha.com/college/suraj-degree-college-mahendergarh-mahendragarh-195381",
+  "https://www.shiksha.com/college/ujala-cygnus-kashmir-super-speciality-hospital-srinagar-245232",
+  "https://www.shiksha.com/college/goutham-college-basaveshwaranagar-bangalore-22307",
+  "https://www.shiksha.com/college/asia-pacific-institute-of-management-new-delhi-jasola-vihar-30161",
+  "https://www.shiksha.com/college/lcet-ludhiana-college-of-engineering-and-technology-42854",
+  "https://www.shiksha.com/college/vaibhavi-info-solutions-lucknow-59101",
+  "https://www.shiksha.com/college/st-anne-s-degree-college-for-women-bangalore-64503",
 ]
 
 
@@ -9252,7 +9252,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count = 4201
+    c_count = 2501
 
     try:
         for base_url in BASE_URL:
