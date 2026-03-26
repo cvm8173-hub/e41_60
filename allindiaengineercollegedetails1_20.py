@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/sir-h-n-reliance-foundation-hospital-and-research-centre-mumbai-105887",
-  "https://www.shiksha.com/college/b-r-singh-hospital-and-centre-for-medical-education-kolkata-105955",
-  "https://www.shiksha.com/college/shri-swami-samarth-institute-of-pharmacy-ahmednagar-147539",
-  "https://www.shiksha.com/college/mahavir-institute-of-pharmacy-nashik-150703",
-  "https://www.shiksha.com/college/udupi-college-of-allied-health-sciences-manipal-210477",
-  "https://www.shiksha.com/college/government-medical-college-konni-pathanamthitta-213205",
-  "https://www.shiksha.com/university/children-s-university-gandhinagar-64015",
-  "https://www.shiksha.com/college/khammam-college-of-pharmacy-70215",
-  "https://www.shiksha.com/college/jayamukhi-college-of-pharmacy-warangal-87855",
-  "https://www.shiksha.com/college/ashokrao-mane-college-of-pharmacy-kolhapur-97803",
-  "https://www.shiksha.com/college/shri-ramnath-singh-institute-of-pharmaceutical-science-and-technology-gwalior-147173",
-  "https://www.shiksha.com/college/vidya-siri-college-of-pharmacy-karnataka-other-156749",
-  "https://www.shiksha.com/college/a-g-m-college-of-pharmacy-karnataka-other-156763",
-  "https://www.shiksha.com/college/suraj-degree-college-mahendergarh-mahendragarh-195381",
-  "https://www.shiksha.com/college/ujala-cygnus-kashmir-super-speciality-hospital-srinagar-245232",
-  "https://www.shiksha.com/college/goutham-college-basaveshwaranagar-bangalore-22307",
-  "https://www.shiksha.com/college/asia-pacific-institute-of-management-new-delhi-jasola-vihar-30161",
-  "https://www.shiksha.com/college/lcet-ludhiana-college-of-engineering-and-technology-42854",
-  "https://www.shiksha.com/college/vaibhavi-info-solutions-lucknow-59101",
-  "https://www.shiksha.com/college/st-anne-s-degree-college-for-women-bangalore-64503",
+  "https://www.shiksha.com/college/aditya-educational-group-beed-179675",
+  "https://www.shiksha.com/college/nihal-singh-college-of-pharmacy-district-rohtak-self-financed-179883",
+  "https://www.shiksha.com/college/urmila-devi-pharmacy-college-etah-uttar-pradesh-other-181739",
+  "https://www.shiksha.com/college/b-v-v-sanghas-college-of-physiotherapy-bagalkot-210625",
+  "https://www.shiksha.com/college/vijaya-institute-of-physiotherapy-belgaum-karnataka-other-210829",
+  "https://www.shiksha.com/college/shree-swaminarayan-gurukul-homoeopathic-medical-college-jamnagar-214813",
+  "https://www.shiksha.com/college/mahrishi-college-of-pharmacy-chitravansham-group-of-college-kaushambi-215829",
+  "https://www.shiksha.com/college/sundaram-institute-of-medical-science-patna-231636",
+  "https://www.shiksha.com/college/kmc-medical-college-hospital-maharajganj-231700",
+  "https://www.shiksha.com/college/panda-college-of-pharmacy-bokaro-steel-city-236532",
+  "https://www.shiksha.com/college/maa-girija-institute-of-pharmacitucal-science-nainital-236640",
+  "https://www.shiksha.com/college/vidyasagar-pharmaceutical-college-of-education-vpce-west-bengal-other-237362",
+  "https://www.shiksha.com/college/dnyandeep-college-of-pharmacy-maharashtra-other-237428",
+  "https://www.shiksha.com/college/vithai-d-pharmacy-college-beed-maharashtra-other-237458",
+  "https://www.shiksha.com/college/spectrum-institute-of-pharmaceutical-science-and-research-greater-noida-59389",
+  "https://www.shiksha.com/college/innocent-hearts-group-of-institutions-loharan-jalandhar-67333",
+  "https://www.shiksha.com/college/central-ayurveda-research-institute-for-drug-development-kolkata-87053",
+  "https://www.shiksha.com/college/rajeev-gandhi-ayurved-nursing-training-centre-rajasthan-other-87105",
+  "https://www.shiksha.com/college/bombay-hospital-college-of-nursing-indore-154087",
+  "https://www.shiksha.com/college/sakshi-college-of-pharmacy-kanpur-155943",
 ]
 
 
@@ -9252,7 +9252,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count = 2501
+    c_count = 3421
 
     try:
         for base_url in BASE_URL:
